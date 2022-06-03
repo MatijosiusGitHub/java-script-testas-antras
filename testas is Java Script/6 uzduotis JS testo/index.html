@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+    <meta name="viewport"content="width=device-width, initial-scale=1.0"/>
+    <title>Automobiliu  amziaus vidurkis</title>
+    
+</head>
+    <body>
+        <script>
+        function avg(){
+            //nusistatome pradine reiksme, kuri yra 0
+            let sum = 0;
+            //susikuriame šešerių automobiliųamžius i masyva
+            let array= [2,3,5,4,6,10]
+            //reikia sukti JS cikla per masyvą array.lenght su "For", kur akumuliuojama kiekviena kita reikšme;prie jau turimos prisideda kiekviena kita
+            for (let i=0; i<array.length;i++){
+                sum+=array[i]
+            }
+            //kad gautume vidurki, aukščiau gautą bendrą reikšmę mes daliname iš masyvo ilgio, kuris yra  Array lenght//
+            document.write(Automobilių amžiaus vidurkis yra ${sum/array.length})
+        }
+        //vykdom užsiduotą funkciją ir gauname, kad amžiaus vidurkis Lietuvai būtų labai gražus "5"
+        avg()
+        </script>
+    </body>
+</html>

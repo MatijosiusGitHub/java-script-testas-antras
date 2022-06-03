@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0.05;
+    margin: 0;
+    box-sizing:content-box;
+    font-size: large;
+    font-family: 'Roboto', Georgia;
+
+}
+
+body{
+    background-color:chartreuse;
+    line-height: normal;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    overflow-y: scroll;
+    margin-block-start: auto;
+
+
+
+}
+container{
+    background-color:darksalmon
+    width 500px
+    padding 10 rem
+    box-shadow 0 30px 20px rosybrown(1,1,1, 0.5 );
+    border-color: rgba(12, 79, 224, 0.849);
+    border-radius: 20 px;
+    outline-style: dotted;
+    display: flex;
+    justify-content: center;
+}
+containerCF {
+    scrollbar-color:inherit
+} 
+input{
+    width:  100%;
+    height: 50px;
+    border-radius: 4pt;
+    outline: 50px;
+    
+}
+containerFC{
+    scrollbar-color:inherit
+}
+input{
+    width:  100%;
+    height: 50px;
+    border-radius: 4pt;
+    outline: 50px;
+}

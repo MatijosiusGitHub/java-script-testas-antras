@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Map Objects</h2>
+<p>Creating a Map from an Array:</p>
+
+<p id="demo"></p>
+
+<script>
+// ismapinti asmenis su masinomis 
+const asmenys= [
+    {
+        name: 'Donas',
+        mašina: false
+        age: 49
+    },
+    {
+        name: 'Anna',
+        mašina: true
+        age: 20
+    },
+    {
+        name: 'Vytas',
+        mašina: true
+        age:18
+    },
+    {
+        name: 'Kastė',
+        mašina: false
+        age: 25
+    },
+    {
+        name: 'BoBO',
+        mašina: true
+        age: undefined
+    },
+    {
+        name: 'Adas',
+        mašina: false
+        age: 75
+    },
+    {
+        name: 'Gabija',
+        mašina: false
+        age: 33
+    },
+    {
+        name: 'Gelmė',
+        mašina: false
+        age: 16
+    },
+    {
+        name: 'Sietuva',
+        mašina: false
+        age: 15
+    }
+];
+//reikia filtruoti, kad butu  rasti tik masina turintys  asmenys 
+// ir mapinti, kad jie butu isvardinti
+
+const Atrinkti = asmenys
+    .filter (x=>'mašina', true)
+    .map (x=>({value: name}))
+    .filter (obj=>value>1)
+    .map(obj=>obj.value);
+
+
+console.log (Atrinkti)
